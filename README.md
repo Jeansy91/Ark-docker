@@ -2,10 +2,10 @@
 
 Docker build for managing an ARK: Survival Evolved server.
 
-This image uses [Ark Server Tools](https://github.com/FezVrasta/ark-server-tools) to manage an ark server and is forked from [turzam/ark](https://hub.docker.com/r/turzam/ark/).
+This image uses [Ark Server Tools](https://github.com/arkmanager/ark-server-tools) to manage an ark server and is forked from [turzam/ark](https://hub.docker.com/r/turzam/ark/).
 
 *If you use an old volume, get the new arkmanager.cfg in the template directory.*  
-__Don't forget to use `docker pull boerngenschmidt/ark-docker` to get the latest version of the image__
+__Don't forget to use `docker pull jeansy/ark-docker` to get the latest version of the image__
 
 ## Features
  - Easy install (no steamcmd / lib32... to install)
@@ -53,7 +53,7 @@ You can use rcon command via docker :
 `docker exec ark arkmanager rconcmd ListPlayers`  
 *Full list of available command [here](http://steamcommunity.com/sharedfiles/filedetails/?id=454529617&searchtext=admin)*
 
-__You can check all available command for arkmanager__ [here](https://github.com/FezVrasta/ark-server-tools/blob/master/README.md)
+__You can check all available command for arkmanager__ [here](https://github.com/arkmanager/ark-server-tools/blob/master/README.md)
 
 ### Crontab - Job automation
 You can easily configure automatic update and backup.  
@@ -141,7 +141,7 @@ Currently none
   - Initial image : works with Ark Server tools 1.3
   - Add auto-update & auto-backup  
 + 1.1 :  
-  - Works with Ark Server Tools 1.4 [See changelog here](https://github.com/FezVrasta/ark-server-tools/releases/tag/v1.4)
+  - Works with Ark Server Tools 1.4 [See changelog here](https://github.com/arkmanager/ark-server-tools/releases/tag/v1.4)
   - Handle mods && auto update mods
 + 1.2 :
   - Remove variable AUTOBACKUP & AUTOUPDATE 
