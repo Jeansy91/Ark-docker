@@ -1,6 +1,6 @@
 ark:
   container_name: ark
-  image: boerngenschmidt/ark-docker
+  image: jeansy91/ark-docker
   environment:
     - SESSIONNAME=Ark Docker
     - SERVERMAP=TheIsland
