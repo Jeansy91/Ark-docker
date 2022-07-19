@@ -170,4 +170,6 @@ Currently none
   - fixed arkmanager upgrade
 + 1.6 :
   - fixed arkmanger upgrade (new Repository)
++ 1.7 :
+  - added 'which' to dependencies
 
